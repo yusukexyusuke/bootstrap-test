@@ -8,7 +8,7 @@
 import Vue from 'vue'
 import App from '../app.vue'
 
-import 'bootstrap';
+import '../tooltip'
 
 document.addEventListener('DOMContentLoaded', () => {
   const el = document.body.appendChild(document.createElement('hello'))
@@ -16,10 +16,7 @@ document.addEventListener('DOMContentLoaded', () => {
     el,
     render: h => h(App)
   })
-
-  console.log(app)
 })
-
 
 // The above code uses Vue without the compiler, which means you cannot
 // use Vue to target elements in your existing html templates. You would

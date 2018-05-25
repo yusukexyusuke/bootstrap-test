@@ -2,6 +2,7 @@
   <div id="app">
     <p>{{ message }}</p>
     <button class="btn btn-primary">test</button>
+    <button class="btn btn-primary" data-toggle="popover" title="hoge" data-trigger="hover">test</button>
   </div>
 </template>
 

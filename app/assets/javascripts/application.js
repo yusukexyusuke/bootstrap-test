@@ -11,4 +11,11 @@
 // about supported directives.
 //
 //= require rails-ujs
+//= require jquery
+//= require popper
+//= require bootstrap
 //= require_tree .
+
+$(() => {
+  $('[data-toggle="popover"]').popover()
+})
